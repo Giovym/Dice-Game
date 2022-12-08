@@ -32,6 +32,17 @@ h1 {
   color: #1864ab;
 }
 
+@media screen and (max-width: 480px) {
+  .btn:hover {
+    background-color: #1864ab;
+    color: #fff;
+  }
+  .btn:active {
+    background-color: #fff;
+    color: #66d9e8;
+  }
+}
+
 .players {
   display: flex;
   justify-content: center;
